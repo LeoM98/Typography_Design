@@ -1,0 +1,25 @@
+body {
+	background-image: url(../IMG/imagen.jpg);
+	min-height: 100%;
+}
+
+h1 {
+	position: absolute;
+	left: 50%;
+	margin-left: -1.9em;
+	color: black;
+	font: 900 800% Baskerville, 'Palatino Linotype', Palatino, serif;	
+}
+
+@keyframes loading {
+	from { max-width: 0; }
+}
+
+h1:before {
+	content: attr(data-content);
+	position: absolute;
+	overflow: hidden;
+	max-width: 5em;
+	color: gray;
+	animation: loading 13s linear;
+} 
