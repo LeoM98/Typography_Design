@@ -1,11 +1,13 @@
 body {
 	background-image: url(../IMG/imagen.jpg);
+	background-size: cover;
 	min-height: 100%;
 }
 
 h1 {
 	position: absolute;
-	left: 50%;
+	left: 45%;
+	top: 20%;
 	margin-left: -1.9em;
 	color: black;
 	font: 900 800% Baskerville, 'Palatino Linotype', Palatino, serif;	
